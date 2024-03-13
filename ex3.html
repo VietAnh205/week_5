@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Thông tin sinh viên</title>
+<style type="text/css">
+.ProductDetails {display: none;}
+.Product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+}
+.ProductName {font-weight: bold;}
+.ProductID {font-style: italic;}
+.ProductID:before {content: " - ";}
+.Product {
+    text-align: center;
+    width: 150px;
+    margin: 0px 20px;
+    float: left;
+    cursor: pointer;
+}
+.Product:hover .ProductDetails {display: block;}
+</style>
+</head>
+<body>
+<div>
+    <div class="Product">
+        <img src="./image/white-cloud-blue-sky_74190-7709.avif" />
+        <div class="ProductDetails">
+            <span class="ProductName">Viet Anh</span>
+            <span class="ProductID">23070124</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="./image/istockphoto-539209544-612x612.jpg" />
+        <div class="ProductDetails">
+            <span class="ProductName">Long Thanh</span>
+            <span class="ProductID">23070179</span>
+        </div>
+    </div>
+    <div class="Product">
+        <img src="./image/AtHome-NightSky-1080x810-1.jpg" />
+        <div class="ProductDetails">
+            <span class="ProductName">Minh Tuan</span>
+            <span class="ProductID">23070979</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
